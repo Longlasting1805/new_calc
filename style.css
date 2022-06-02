@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(23, 18, 42);
+    height: 100vh;
+
+}
+.calculator{
+    width: 400px;
+    overflow: hidden;
+    background-color: rgb(102, 97, 124);
+
+}
+.screen{
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+.button-con{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+button{
+    height: 60px;
+    font-size: 16px;
+    font-weight: 600;
+}
